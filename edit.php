@@ -1,6 +1,7 @@
  <?php 
     $password = $_POST["password"];
-    if (isset($password) and $password == "Bean@123") {
+//set the password here
+    if (isset($password) and $password == "PASSWORD123") {
         $filePath = "content";
 
         $password = $_POST["password"];
